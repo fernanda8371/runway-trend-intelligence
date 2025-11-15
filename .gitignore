@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Data (we keep only small samples / metadata on GitHub)
+data/runway/
+data/street/
+data/social_manual/images/
+
+# But allow small metadata files:
+!data/runway/.gitkeep
+!data/street/.gitkeep
+!data/social_manual/metadata.csv
