@@ -15,6 +15,12 @@ data/runway/
 data/street/
 data/social_manual/images/
 
+# Generated data files (large ML artifacts)
+data/*.npy
+data/*.csv
+data/*.pkl
+data/*.h5
+
 # But allow small metadata files:
 !data/runway/.gitkeep
 !data/street/.gitkeep
